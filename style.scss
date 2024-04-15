@@ -1,0 +1,48 @@
+// Proměnné
+$hlavni-barva: #007bff;
+$vedlejsi-barva: #6c757d;
+$pismo: Arial, sans-serif;
+
+// Obecné styly
+body {
+    font-family: $pismo;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: $hlavni-barva;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: $vedlejsi-barva;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: $hlavni-barva;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
